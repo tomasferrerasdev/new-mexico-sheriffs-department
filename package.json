@@ -1,5 +1,6 @@
 {
   "name": "new-mexico-sheriffs-department",
+  "author": "Tomas Ferreras",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
   },
   "dependencies": {
     "next": "12.3.0",
