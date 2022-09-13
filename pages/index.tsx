@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Image
-        src="./sheriff.webp"
+        src="/sheriff.webp"
         layout="fill"
         objectFit="cover"
         alt="sheriff"
