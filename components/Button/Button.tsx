@@ -36,7 +36,6 @@ export const Button = styled.button<Props>`
   user-select: none;
   cursor: pointer;
   font-size: 1rem;
-  max-width: 200px;
   ${({ color }) => getColor(color)}
   border: 1px solid #172634;
   padding: 0.75rem 1rem;
