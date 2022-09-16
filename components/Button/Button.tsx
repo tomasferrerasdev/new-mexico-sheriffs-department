@@ -19,8 +19,8 @@ export const getColor = (color?: Color): SerializedStyles => {
       `;
     case 'disabled':
       return css`
-        background-color: #c6c6c6;
-        color: #475869;
+        background-color: #8d8d8d;
+        color: #373f49;
       `;
     default:
       return css``;
@@ -39,9 +39,6 @@ export const Button = styled.button<Props>`
   ${({ color }) => getColor(color)}
   border: 1px solid #172634;
   padding: 0.75rem 1rem;
-  &:hover {
-    opacity: 0.9;
-  }
 `;
 
 Button.defaultProps = {

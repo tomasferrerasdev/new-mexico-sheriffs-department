@@ -19,6 +19,5 @@ describe('Button test cases', () => {
     const element = screen.getByRole('button');
     userEvent.click(element);
     expect(onClick).toHaveBeenCalled();
-  });
-  */
+  });*/
 });
